@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclamemalo_navigation"
+    app:startDestination="@id/zapatos_navigation">
+
+    <include app:graph="@navigation/zapatos_navigation" />
+    <include app:graph="@navigation/favoritos_navigation" />
+    <include app:graph="@navigation/infouser_navigation" />
+</navigation>

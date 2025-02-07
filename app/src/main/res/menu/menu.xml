@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id = "@+id/zapatos_navigation"
+        android:icon = "@drawable/ic_zapatito"
+        android:title = "Brawlers"/>
+    <item
+        android:id = "@+id/infouser_navigation"
+        android:icon = "@drawable/ic_user"
+        android:title = "Informacion del Usuario"/>
+    <item
+        android:id = "@+id/favoritos_navigation"
+        android:icon = "@drawable/ic_favs"
+        android:title = "Favoritos"/>
+</menu>

@@ -17,7 +17,7 @@ class CreditActivity : AppCompatActivity() {
         val textView: TextView = findViewById(R.id.creditTextView)
         val contactButton: Button = findViewById(R.id.contactButton)
 
-        textView.text = "$userName, estás usando la versión 1 de Brawl Stars Guide App. \n\nDescripción de la app: Esta app es una herramienta para jugadores de Brawl Stars."
+        textView.text = "$userName, estás usando la versión 1.1 de Brawl Stars Guide App. \n\nDescripción de la app: Esta app es una herramienta para jugadores de Brawl Stars."
 
         contactButton.setOnClickListener {
             val emailIntent = Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", "tu-email@dominio.com", null))

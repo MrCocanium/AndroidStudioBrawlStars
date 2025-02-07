@@ -1,7 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Brawl" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Theme.Nigger" parent="Theme.Material3.Dark">
+        <item name="colorPrimary">#BB86FC</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="backgroundColor">#121212</item>
+        <item name="colorOnBackground">#FFFFFF</item>
     </style>
 </resources>

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Brawl</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="creditos">Creditos</string>
+    <string name="mensaje">Gracias %s por usar nuestra aplicacion Guia de Brawl Stars, si \nnecesitas ayuda en algo, no dudes en contactarnos mediante email.</string>
+    <string name="contactar">Contactar</string>
+    <string name="entrar">Entrar</string>
+    <string name="has_entrado_al_menu">¡Gracias por probar nuestra app en desarrollo! 🎉\n\n
+                                        Te damos la bienvenida a esta guía de Brawl Stars, donde encontrarás información, consejos y estrategias para mejorar tu juego. 🚀\n\n
+                                        Estamos trabajando constantemente para brindarte la mejor experiencia, así que cualquier sugerencia o comentario será
+                                        muy bien recibido.\n\n ¡Esperamos que disfrutes la aplicación y te ayude a convertirte en un verdadero maestro de Brawl Stars!\n\n
+                                        💙 ¡Gracias por tu apoyo y por ser parte de esta aventura!</string>
+    <string name="volver">Volver</string>
+    <string name="infouser">%s: \n\n
+            Aqui puedes ver la informacion de tu usuario.\n\n
+            Podrás ver en un futuro a cuantos brawlers tienes como favoritos, y cuantas vecesa has iniciado sesion.</string>
 </resources>

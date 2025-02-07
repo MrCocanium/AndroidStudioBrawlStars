@@ -1,38 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/welcomeTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="¡Bienvenido a Brawl Stars!"
-        android:textSize="20sp"
-        android:layout_marginBottom="20dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/FragmentoContenedor"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="0.4"
-        android:src="@drawable/brawlstars_image"
-        android:contentDescription="Logo Brawl Stars"
-        android:layout_marginBottom="20dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:navGraph = "@navigation/nav_graph"
+        android:name = "androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost = "true"
+        />
 
-    <EditText
-        android:id="@+id/userNameEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Usuario"
-        android:layout_marginBottom="20dp" />
-
-    <Button
-        android:id="@+id/navigateButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ir a Créditos"
-        android:layout_gravity="center" />
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
