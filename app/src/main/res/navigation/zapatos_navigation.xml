@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/zapatos_navigation"
+    app:startDestination="@id/cajaZapatoFragment">
+
+    <fragment
+        android:id="@+id/cajaZapatoFragment"
+        android:name="com.example.brawl.CajaZapatoFragment"
+        android:label="fragment_caja_zapato"
+        tools:layout="@layout/fragment_caja_zapato" >
+        <action
+            android:id="@+id/action_cajaZapatoFragment_to_stemdoFragment"
+            app:destination="@id/stemdoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stemdoFragment"
+        android:name="com.example.brawl.StemdoFragment"
+        android:label="fragment_stemdo"
+        tools:layout="@layout/fragment_stemdo" />
+</navigation>
